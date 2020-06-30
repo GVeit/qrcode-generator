@@ -16,7 +16,6 @@ class App extends React.Component <{}, { qrValue: string }> {
   changeQr = (e: { preventDefault: () => void; }) => {
     e.preventDefault();
     let newQrValue = this.textInput.value;
-    let newLevelValue = this.textLevelInput.value;
     //console.log('submitted');
     //update new value 
     this.setState({qrValue : newQrValue});
